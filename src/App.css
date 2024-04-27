@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Caprasimo&family=Manrope:wght@200;400;500;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+
+}
+/* navBar section css*/
+.navSection{
+height: 70px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 8px;
+  background-color:hsl(204, 7%, 14%);
+  color: #fff;
+
+}
+
+/* sidebar section*/
+
+
+.sideBarSection{
+padding: 20px;
+  width: 100%;
+  max-width: 15%;
+  height: 80vh;
+  margin-top: 0px;
+  background-color: rgb(9, 113, 113);
+  color: #fff;
+  height: 100vh;
+}
+.sideBarSection ul li{
+  list-style: none;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size:medium;
+  cursor: pointer;
+
+}
+
+.collectionSection{
+  display: flex;
+}
+
+/* login section*/
+.loginSection{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.loginsSectionContainer{
+  border: 1px solid #949191;
+  padding: 40px;
+  border-radius:20px
+}
+.authForm input,label{
+  font-size: medium;
+  height: 36px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.authForm .subButton{
+
+  display: flex;
+  justify-content: center;
+}
+.btnSubmit{
+  height: 35px;
+  width: 130px;
+  color: #fff;
+  background-color:hsl(204, 7%, 14%);
+  border: 0px solid ;
+  border-radius: 4px;
+}
+
+/* add FirmSection*/
+.addFirmSection{
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.firmSectionContainer{
+
+  border: 1px solid #949191;
+  padding: 10px 50px;
+  
+  border-radius:20px
+}
+.check-inp{
+  display: flex;
+
+  justify-content: space-around;
+}
+.checkboxContainer{
+  margin-top: 10px;
+  height: 60px;
+  display:flex;
+  flex-direction:column;
+  justify-content: start;
+  align-items: center;
+}
